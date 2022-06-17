@@ -5,7 +5,7 @@ const taskSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        maxlength: [20, 'provide less than the characters you provided']
+        maxlength: [40, 'provide less than the characters you provided']
     },
     completed: {
         type: Boolean,
